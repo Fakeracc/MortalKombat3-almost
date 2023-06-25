@@ -72,9 +72,6 @@
 .chosen {
     border: 3px solid red;
 }
-.character:hover {
-    transform: scale(1.1);
-}
 
 .character.selected {
     border: 3px solid green; /* Сіра рамка на обраному персонажі */
