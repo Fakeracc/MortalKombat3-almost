@@ -74,7 +74,6 @@ const SelectCharacterScreen: React.FC<SelectScreen> = ({changeScreen}) => {
     const prevSelectedFighter = useRef<Fighter | null>(null);
 
     useEffect(() => {
-        console.log("fighter 1 and 2", player1, player2)
         const selectedFighterIndex = (row - 1) * fightersPerRow + column - 1;
         const newSelectedFighter =
             selectedFighterIndex >= 0 && selectedFighterIndex < fighters.length
