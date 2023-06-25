@@ -6,6 +6,9 @@
     height: 100vh;
     color: #ffffff;
 }
+.versus-screen.replaced {
+    background-image: url("../assets/characters-icons/pass.jpeg");
+}
 
 .player-container {
     display: grid;
@@ -53,6 +56,16 @@
     border: 5px solid #424542;
     background-color: #000;
     background-size: cover;
-    background-image: url("src/assets/characters-icons/baraka.png");
+    background-image: url("src/assets/characters-icons/mk.jpeg");
+    margin: 0 5px;
+}
+
+.replaced-icon {
+    width: 60px;
+    height: 60px;
+    border: 5px solid #424542;
+    background-color: #000;
+    text-align: center;
+    color: white;
     margin: 0 5px;
 }
